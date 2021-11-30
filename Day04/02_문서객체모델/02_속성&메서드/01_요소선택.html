@@ -9,16 +9,16 @@
 
 
 
-        //태그 이름으로 요소 선택: getElementsByTagName()
-        //모든 li 요소를 선택
-        const cafeList = document.getElementsByTagName('li')
+            //태그 이름으로 요소 선택: getElementsByTagName()
+            //모든 li 요소를 선택
+            const cafeList = document.getElementsByTagName('li')
 
-        document.addEventListener('DOMContentLoaded',()=>{
+            document.addEventListener('DOMContentLoaded',()=>{
 
-            for (let i = 0; i < cafeList.length; i++) {
-                //item(인덱스) : 인덱스로 목록의 요소를 접근
-            cafeList.item(i).style.color = '#645fce'
-            
+                for (let i = 0; i < cafeList.length; i++) {
+                    //item(인덱스) : 인덱스로 목록의 요소를 접근
+                cafeList.item(i).style.color = '#645fce'
+                
             }
 
             //id로 요소 선택: getElementsById()
